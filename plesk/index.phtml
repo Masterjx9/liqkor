@@ -1,0 +1,6 @@
+<form method="post" action="<?= $this->url('generate'); ?>">
+    <?php foreach ($this->accounts as $account): ?>
+        <input type="checkbox" name="accounts[]" value="<?= $this->escape($account); ?>"><?= $this->escape($account); ?><br>
+    <?php endforeach; ?>
+    <input type="submit" value="Generate Docker Files">
+</form>

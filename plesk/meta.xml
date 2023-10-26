@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+   <id>liqkor</id>
+   <name>Liqkor</name>
+   <description>LiquidWeb Docker Plugin for Plesk</description>
+   <version>1.0</version>
+   <release>1</release>
+   <vendor>Pythonic IT</vendor>
+   <url>https://pythonicit.com/liqkor</url>
+   <plesk_min_version>17.0</plesk_min_version>
+</module>
